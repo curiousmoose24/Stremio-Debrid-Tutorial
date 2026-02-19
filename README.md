@@ -1,13 +1,13 @@
 # Stremio-Debrid-Tutorial
-# Full Guide
+This is my preferred Stremio setup with Debrid integration, consisting only of what I think is essential for the best experience. There are more detailed tutorials linked at the bottom of this document that including features like AI search functionality. If that interests you, feel free to refer to them.
 ## Debrid Services & Stremio
 A subscription to a debrid service like [Real-Debrid](https://real-debrid.com) and/or [Torbox](https://torbox.app) allows Stremio to access a wealth of cached content, meaning it can be served instantly without buffering or downloading. Real-Debrid has more content than Torbox, but Torbox is generally more user friendly. I would recommend starting with Real-Debrid. Use any payment method you like.
 
-Both Stremio and RD require an email account. I would recommend making a separate email using something like [Proton Mail](https://proton.me/) or [TutaMail](https://tuta.com/) since will be making accounts on various different sites. This isn't strictly necessary, I just like having a separate email for everything Stremio related.
+Both Stremio and RD require an email account. I would recommend making a separate email using a service like [Proton Mail](https://proton.me/) or [TutaMail](https://tuta.com/) since will be making accounts on various different sites. This isn't strictly necessary, I just like having a separate email for everything Stremio related.
 
 Once you have created a Stremio account and purchased a debrid subscription, continue to the next section.
 ## AIOStreams
-The power of Stremio lies in it's addons. Addons are the link between the content in a debrid service and a frontend like Stremio. [This](https://stremio-addons.net/) is the most well maintained, up-to-date repository of addons. Using AIOStreams simplifies and streamlines the addon process. Use the [Midnight Instance](https://aiostreamsfortheweebsstable.midnightignite.me) or check the [uptime log of all instances](https://status.dinsden.top/status/stremio-addons) (some publicly hosted instances disallow the use of Torrentio, which is why I recommend using the Midnight instance). I'll go through each AIOStreams category individually.
+Stremio's power lies in its addons. Addons are the link between the content in a debrid service and a frontend like Stremio. [This](https://stremio-addons.net/) is the most well maintained, up-to-date repository of addons. AIOStreams simplifies and streamlines the addon process. Use the [Midnight Instance](https://aiostreamsfortheweebsstable.midnightignite.me) or check the [uptime log of all instances](https://status.dinsden.top/status/stremio-addons) (some publicly hosted instances disallow the use of Torrentio, which is why I recommend using the Midnight instance). I'll go through each AIOStreams category individually.
 ### Services
 Enable your debrid services of choice, paste API keys (RD API [Link](https://real-debrid.com/apitoken)) (Torbox API [Link](https://torbox.app/settings?section=account))
 ### Addons
@@ -61,7 +61,7 @@ Sort by cached
 ### Formatting
 The formatting section affects how stream names are served to you. 
 
-This formatting uses emojis to convey information, the most important one being⚡️lightning bolt, signifying a cached link ready to stream immediately. The ⏳ hourglass signifies a link that still needs to be cached. Uncached links can be selected, but will return a message like "This stream is being downloaded, please wait". The link is being downloaded by the debrid service, and may be ready in as little as a few minutes. It is very rare that there are no cached links to content.
+This formatting uses emojis to convey information, the most important one being the⚡️lightning bolt, signifying a cached link ready to stream immediately. The ⏳ hourglass signifies a link that still needs to be cached. Uncached links can be selected, but will return a message like "This stream is being downloaded, please wait". The link is being downloaded by the debrid service, and may be ready in as little as a few minutes. It is very rare that there are no cached links to content.
 
 Select Custom, paste my custom formatting as seen below:
 
